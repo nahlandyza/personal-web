@@ -85,7 +85,9 @@ export default function ProjectsSectionPage() {
               BLOG
             </small>
             <p className="text-white text-lg text-justify mt-5">
-              A clean and fast blog platform focused on developer content...
+              A clean and fast blog platform focused on developer content. Built
+              with Tailwind, featuring custom components, syntax highlighting.
+              Perfect for sharing insights, tutorials, and personal experiences
             </p>
           </div>
         </div>
@@ -105,7 +107,9 @@ export default function ProjectsSectionPage() {
               PERSONAL WEB
             </small>
             <p className="text-white text-lg text-justify mt-5">
-              A fully responsive personal website built with Next.js...
+              A fully responsive personal website built with Next.js and
+              Tailwind CSS. Designed to act as a digital resume and a place to
+              showcase projects, skills, and contact information.
             </p>
           </div>
         </div>

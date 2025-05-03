@@ -13,8 +13,8 @@ export default function HeroSectionPage() {
       <div className="h-fit w-fit my-auto mx-auto">
         {/* div for home content */}
         <div className="relative w-max[1100px] grid place-items-center">
-          <h2 className="text-7xl font-semibold text-[#B0B0B0]">
-            Hi, I`m <span className="text-[#FF69B4]">Nahla</span>
+          <h2 className="text-7xl font-semibold text-[#B0B0B0] text-center">
+            Hi, I&apos;m <span className="text-[#FF69B4]">Nahla</span>
           </h2>
           <p className="text-[#B0B0B0] h-fit text-3xl font-semibold mt-7">
             Full-Stack <span className="text-[#FF69B4] ">Web Developer</span>
