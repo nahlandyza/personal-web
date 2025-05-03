@@ -12,13 +12,5 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: #1e1e1e;
 }
-
-/* .header {
-  border: 1px solid red;
-  display: grid 
-}
-
-.ul {
-  border: 2px solid yellowgreen;
-  display: flex just; */

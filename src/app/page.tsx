@@ -8,7 +8,7 @@ import ContactSectionPage from "@/components/contact-section/page";
 export default function HomePage() {
   return (
     <main>
-      <div>
+      <div className="bg-amber-900">
         <HeroSectionPage />
         <AboutSectionPage />
         <SkillsSectionPage />

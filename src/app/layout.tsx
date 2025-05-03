@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Link from "next/link";
-import { FaHome } from "react-icons/fa";
+// import Link from "next/link";
+// import { FaHome } from "react-icons/fa";
+import Header from "@/components/headers/page";
 
 export const metadata: Metadata = {
   title: "my personal website",
@@ -18,7 +19,8 @@ export default function RootLayout({
       <body
         className={`background: 'linear-gradient(135deg, #0F0F0F, #1E1E1E, #FF69B4)  antialiased font-sans`}
       >
-        <header className="z-10 mt-1 bg-[#FFC0CB] grid grid-cols-4 w-full py-5 rounded-full max-w-screen mx-auto fixed text-[#222222] text-lg font-semibold">
+        <Header />
+        {/* <header className="z-10 mt-1 bg-[#FFC0CB] grid grid-cols-4 w-full py-5 rounded-full max-w-screen mx-auto fixed text-[#222222] text-lg font-semibold">
           <h1 className="col-span-1 h-fit w-fit flex place-items-center ml-2.5 px-3">
             <Link className="hover:bg-[#FF69B4] transition-colors" href="#home">
               <FaHome size={32} />
@@ -26,9 +28,6 @@ export default function RootLayout({
           </h1>
           <nav className="col-span-2">
             <ul className="flex justify-between items-center h-fit">
-              {/* <li className="hover:bg-[#FF69B4] transition-colors">
-                <Link href="#home">Home</Link>
-              </li> */}
               <li className="hover:bg-[#FF69B4] transition-colors">
                 <Link href="#about">About</Link>
               </li>
@@ -50,7 +49,54 @@ export default function RootLayout({
               </li>
             </ul>
           </nav>
-        </header>
+        </header> */}
+
+        {/* <header className="z-10 bg-[#FFC0CB] w-full h-fit py-2 mb-0 md:py-3 px-4 md:px-10 fixed top-0 left-0 right-0 text-[#222222] text-sm md:text-lg font-semibold">
+          <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div className="md:mb-0">
+              <Link
+                className="hover:bg-[#FF69B4] transition-colors p-2 rounded-full"
+                href="#home"
+              >
+                <FaHome size={24} />
+              </Link>
+            </div>
+
+            <nav className="flex flex-col md:flex-row gap-2 md:gap-6 items-center">
+              <Link
+                className="hover:bg-[#FF69B4] transition-colors px-2 py-1 rounded"
+                href="#about"
+              >
+                About
+              </Link>
+              <Link
+                className="hover:bg-[#FF69B4] transition-colors px-2 py-1 rounded"
+                href="#skills"
+              >
+                Skills
+              </Link>
+              <Link
+                className="hover:bg-[#FF69B4] transition-colors px-2 py-1 rounded"
+                href="#projects"
+              >
+                Projects
+              </Link>
+              <Link
+                className="hover:bg-[#FF69B4] transition-colors px-2 py-1 rounded"
+                href="#testi"
+              >
+                Testimonial
+              </Link>
+              <Link
+                className="bg-[#222222] text-[#FFC0CB] hover:bg-[#FF69B4] transition-colors px-3 py-1 rounded-full"
+                href="#contact"
+              >
+                Contact
+              </Link>
+            </nav>
+          </div>
+        </header> */}
+
         {children}
       </body>
     </html>
