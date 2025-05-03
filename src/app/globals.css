@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* .header {
+  border: 1px solid red;
+  display: grid 
+}
+
+.ul {
+  border: 2px solid yellowgreen;
+  display: flex just; */
