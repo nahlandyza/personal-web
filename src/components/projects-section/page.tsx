@@ -17,7 +17,7 @@ export default function ProjectsSectionPage() {
         <div className="hover:bg-[#FF69B4] transition-colors p-4 rounded-xl">
           <div className="relative h-64 w-full rounded-2xl border-2 border-[#B0B0B0]">
             <Image
-              src="/dummy-blog.png"
+              src="/playminton.png"
               alt="Project 1"
               fill
               className="rounded-2xl object-cover"
