@@ -19,7 +19,7 @@ export default function ContactSectionPage() {
 
       <div className="flex flex-col gap-4 w-full max-w-sm">
         <Link
-          href="https://wa.me/+6281295299090"
+          href="https://wa.me/+6281295297194"
           className="bg-[#FF69B4] hover:bg-pink-300 transition-colors flex items-center px-4 py-3 rounded"
         >
           <FaWhatsapp className="mr-3" />
