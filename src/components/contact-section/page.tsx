@@ -33,7 +33,7 @@ export default function ContactSectionPage() {
           Email Me
         </Link>
         <Link
-          href="https://github.com/"
+          href="https://github.com/nahlandyza"
           className="bg-[#FF69B4] hover:bg-pink-300 transition-colors flex items-center px-4 py-3 rounded"
         >
           <FaGithub className="mr-3" />
